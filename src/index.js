@@ -10,7 +10,7 @@ import App from './components/App.jsx';
 
 
 import rootReducer from './reducers'
-
+//from git
   
 const store = createStore(rootReducer, applyMiddleware(reduxThunk));
 
