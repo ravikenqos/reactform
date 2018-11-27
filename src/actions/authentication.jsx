@@ -6,10 +6,7 @@ import { AUTHENTICATED, UNAUTHENTICATED, AUTHENTICATION_ERROR, SIGNUP_SUCCESS,  
 const URL = 'http://localhost:3000/api/';
 
 
-/**
- * Check Authentication
- * 
-  */
+
 
  export function authenticate(){
      return function (dispatch) {
